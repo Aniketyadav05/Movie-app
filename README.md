@@ -1,12 +1,85 @@
-# React + Vite
+# 🎬 Movie App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive movie search and explore app built using **React**, **Vite**, **Tailwind CSS**, and **TMDB API**. This project showcases dynamic API fetching, error handling, search functionality, and clean UI design.
 
-Currently, two official plugins are available:
+**🌐 Live Demo**: [Movie app](https://movie-app-delta-nine.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔍 Search and explore trending movies
+- 🎞️ Real-time API calls to TMDB (The Movie Database)
+- ⚠️ Error handling and loading indicators
+- 📱 Fully responsive layout with Tailwind
+- 🔐 Environment variable usage with Vite
+
+---
+
+## 🛠 Tech Stack
+
+- ⚛️ React + Vite
+- 🎨 Tailwind CSS
+- 🌐 TMDB API
+- ☁️ Appwrite (for saving search stats)
+
+---
+
+## 📦 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/Aniketyadav05/Movie-app
+cd Movie-app
+
+# Install dependencies
+npm install
+
+# Create a .env file and add your TMDB key
+VITE_TMDB_API_KEY=your_api_key_here
+
+# Start the development server
+npm run dev
+````
+
+---
+
+## 📁 Folder Structure
+
+```
+Movie-app/
+├── components/        # Reusable UI components
+├── pages/             # App pages like Home and MovieDetail
+├── api/               # TMDB API request functions
+├── assets/            # Icons, images, etc.
+├── .env               # API Key (not pushed to GitHub)
+```
+
+---
+
+## 📸 Screenshots
+
+> *(You can add screenshots to a `/screenshots` folder and embed them below)*
+
+* **Homepage**
+* **Movie Details View**
+
+---
+
+## ✍ Author
+
+Made with ❤️ by [Aniket Yadav](https://github.com/Aniketyadav05)
+
+---
+
+## 📃 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+## ⭐ Want to Contribute?
+
+Feel free to fork the repo and submit a pull request. All contributions are welcome!
+
+
